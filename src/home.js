@@ -242,7 +242,7 @@ export const ImageUpload = () => {
               {!image && <CardContent className={classes.content}>
                 <DropzoneArea
                   acceptedFiles={['image/*']}
-                  maxSize={500000}
+                  maxSize={12582912}
                   dropzoneText={"Drag and drop an image of a potato plant leaf to process"}
                   onChange={onSelectFile}
                 />
