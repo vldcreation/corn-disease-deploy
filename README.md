@@ -5,20 +5,20 @@
 - Access Artefak Drive from [this][artefak_drive] 
 - Install all the required libraries
 - Run file based on your device
- -- GPU [/Train/Model-Train-GPU2.ipynb]
- -- CPU [/Train/Model-Train-CPU.ipynb] 
+ -- GPU [Model-Train-GPU2.ipynb]
+ -- CPU [Model-Train-CPU.ipynb] 
 
 ### Testing
 - Access Artefak Drive from [this][artefak_drive] 
 - Install all the required libraries
 - Run file based on your device
- -- Testing [/Testing/Testing Model.ipynb]
+ -- Testing [Testing Model.ipynb]
 
 ### Serving
 - Access Artefak Drive from [this][artefak_drive] 
 - Install all the required libraries
 - Run file based on your device
- -- Serving [/Serving/Serving_Backend.ipynb]
+ -- Serving [Serving_Backend.ipynb]
 
 ### Deploy
 - Clone repository from [this][deploy_repo]
@@ -54,7 +54,7 @@ MIT
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-   [artefak_drive]: <https://drive.google.com/drive/folders/1a0jBCkGYCSq5wEro4HuhE2s6IsItJ6qQ?usp=sharing>
+   [artefak_drive]: <https://drive.google.com/drive/folders/1BoKPSgA6E6lqkLRjSfi7m_g6RUkQRKC4?usp=sharing>
    [vercel_cli]: <https://vercel.com/cli>
    [vercel_docs]: <https://vercel.com/docs>
    [deploy_repo]: <https://github.com/vldcreation/corn-disease-deploy>
