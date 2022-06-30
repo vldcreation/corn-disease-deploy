@@ -3,22 +3,25 @@
 
 ### Traine and Saving Model
 - Access Artefak Drive from [this][artefak_drive] 
-- Install all the required libraries
+- Make duplicate to your drive and access it
 - Run file based on your device
- -- GPU [Model-Train-GPU2.ipynb]
- -- CPU [Model-Train-CPU.ipynb] 
+- Install all the required libraries (all imported libraries may not be available on your device or cloud that you are using for)
+- GPU [Model-Train-GPU2.ipynb]
+- CPU [Model-Train-CPU.ipynb] 
 
 ### Testing
 - Access Artefak Drive from [this][artefak_drive] 
-- Install all the required libraries
+- Make duplicate to your drive and access it
 - Run file based on your device
- -- Testing [Testing Model.ipynb]
+- Install all the required libraries (all imported libraries may not be available on your device or cloud that you are using for)
+- Testing [Testing Model.ipynb]
 
 ### Serving
 - Access Artefak Drive from [this][artefak_drive] 
-- Install all the required libraries
+- Make duplicate to your drive and access it
 - Run file based on your device
- -- Serving [Serving_Backend.ipynb]
+- Install all the required libraries (all imported libraries may not be available on your device or cloud that you are using for)
+- Serving [Serving_Backend.ipynb]
 
 ### Deploy
 - Clone repository from [this][deploy_repo]
