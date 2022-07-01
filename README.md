@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Corn Plant Disease
+## _V0.0.1_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Traine and Saving Model
+- Access Artefak Drive from [this][artefak_drive] 
+- Make duplicate to your drive and access it
+- Run file based on your device
+- Install all the required libraries (all imported libraries may not be available on your device or cloud that you are using for)
+- GPU [Model-Train-GPU2.ipynb]
+- CPU [Model-Train-CPU.ipynb] 
 
-## Available Scripts
+### Testing
+- Access Artefak Drive from [this][artefak_drive] 
+- Make duplicate to your drive and access it
+- Run file based on your device
+- Install all the required libraries (all imported libraries may not be available on your device or cloud that you are using for)
+- Testing [Testing Model.ipynb]
 
-In the project directory, you can run:
+### Serving
+- Access Artefak Drive from [this][artefak_drive] 
+- Make duplicate to your drive and access it
+- Run file based on your device
+- Install all the required libraries (all imported libraries may not be available on your device or cloud that you are using for)
+- Serving [Serving_Backend.ipynb]
 
-### `npm start`
+### Deploy
+- Clone repository from [this][deploy_repo]
+- Install Vercel on [this][vercel_cli]
+- Setup Configuration and Create Repository on vercel from [this][vercel_docs]
+- Setup Env
+```
+- vercel env rm REACT_APP_API_URL
+- vercel env add
+what's the name of variable? REACT_APP_API_URL
+What’s the value of REACT_APP_API_URL? 'link ngrok yang baru di dapat' - tambahai /predict
+- vercel --prod
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Ressource
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Ressource | Link |
+| ------ | --------------- |
+| Google Drive | [link][artefak_drive] |
+| Deploy | [link][deploy_repo] |
+| VERCEL CLI | [link][vercel_cli] |
+| VERCEL DOCS | [link][vercel_docs] |
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+MIT
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Free Software, Hell Yeah!**
 
-### `npm run eject`
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   [artefak_drive]: <https://drive.google.com/drive/folders/1BoKPSgA6E6lqkLRjSfi7m_g6RUkQRKC4?usp=sharing>
+   [vercel_cli]: <https://vercel.com/cli>
+   [vercel_docs]: <https://vercel.com/docs>
+   [deploy_repo]: <https://github.com/vldcreation/corn-disease-deploy>
