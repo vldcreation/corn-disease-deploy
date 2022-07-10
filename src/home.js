@@ -252,8 +252,8 @@ export const ImageUpload = () => {
                   <Table className={classes.table} size="small" aria-label="simple table">
                     <TableHead className={classes.tableHead}>
                       <TableRow className={classes.tableRow}>
-                        <TableCell className={classes.tableCell1}>Label:</TableCell>
-                        <TableCell align="right" className={classes.tableCell1}>Confidence:</TableCell>
+                        <TableCell className={classes.tableCell1}>Daun tergolong:</TableCell>
+                        <TableCell align="right" className={classes.tableCell1}>Keakuratan:</TableCell>
                       </TableRow>
                     </TableHead>
                     <TableBody className={classes.tableBody}>
